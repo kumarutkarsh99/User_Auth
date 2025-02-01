@@ -14,14 +14,12 @@ Features:
 
 Project Structure:
 
-/src
-/components
-Navbar.js - Navbar component with home and logout functionality
-Footer.js - Footer component with a newsletter subscription form
-Form.js - Login form for user authentication
-Signup.js - Registration form for new users
-Welcome.js - Welcome page displayed after successful login
-App.js - Main App component that routes between different pages
+Navbar.jsx - Navbar component with home and logout functionality
+Footer.jsx - Footer component with a newsletter subscription form
+Form.jsx - Login form for user authentication
+Signup.jsx - Registration form for new users
+Welcome.jsx - Welcome page displayed after successful login
+App.jsx - Main App component that routes between different pages
 App.css - Global styling for the application
 
 Dependencies
@@ -35,9 +33,6 @@ How It Works:
 
 1. Signup: Users create an account by entering an email and password. The credentials are saved in `localStorage`.
 2. Login: Users log in by providing their email and password. If the credentials match those in `localStorage`, they are logged in and redirected to the welcome page.
-
 3. Welcome Page: Once logged in, users are greeted with a personalized welcome message.
-
 4. Logout: Users can log out, which removes the current session from `localStorage` and redirects them to the login page.
-
-5. Newsletter Subscription: Users can subscribe to a newsletter by entering an email, and a success message is displayed.
+5. Newsletter Subscription: Users can subscribe to a newsletter by entering an email.
