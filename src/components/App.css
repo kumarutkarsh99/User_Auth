@@ -1,0 +1,34 @@
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8vh 10vh;
+    background: url("https://cdn.vectorstock.com/i/500p/47/40/abstract-tech-city-on-black-background-vector-53934740.jpg");
+    background-size: cover;
+}
+
+.mainform{
+    width: 50vw;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+@media(max-width: 480px){
+    .login{
+        padding: 5vh 1vw;
+    }
+
+    .mainform{
+        width: 80vw;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 1023px){
+    .login{
+        padding: 5vh 1vw;
+    }
+
+    .mainform{
+        width: 60vw;
+    }
+}
